@@ -1,0 +1,12 @@
+# Post-traitement (n'importe quel PC)
+numpy
+pandas
+scipy
+matplotlib
+folium
+
+# Acquisition sur la Raspberry Pi uniquement
+# smbus
+# RPi.GPIO
+# RPLCD
+# evdev
