@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.vscode/
+.idea/
+.DS_Store
+
+# Résultats générés par le post-traitement
+code/postprocessing/data/
+**/resultats_kalman/
+*.html.tmp
+data/**/resultats_kalman/
+data/**/cartes_gnss/
