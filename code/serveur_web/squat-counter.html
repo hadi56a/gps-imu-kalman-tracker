@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+    <html lang="fr">
+    <link href="style.css" rel="stylesheet">
+    
+    <head>
+        <meta charset="UTF-8">
+        <title>Squat Counter</title>
+        <script>
+            async function refresh() {
+                {
+                    const res = await fetch("/count");
+                    document.getElementById("count").textContent = await res.text();
+                }
+            }
+            setInterval(refresh, 1000);
+        </script>
+    </head>
+    
+    <body>
+        <h1>SQUAT COUNTER</h1>
+        <div id="count"></div>
+    </body>
+    
+    </html>
